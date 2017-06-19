@@ -1,0 +1,35 @@
+{
+  "page/goodHouse_sub.html": {
+    "href": "page/goodHouse_sub.html",
+    "resources": [
+      "css/mui.min.css",
+      "js/mui.min.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "page/goodHouse.html": {
+    "href": "page/goodHouse.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "page/goodHouse_sub.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "css/mui.min.css",
+      "js/mui.min.js",
+      "images/yuantiao.jpg",
+      "images/shuijiao.jpg"
+    ],
+    "refer": [
+      "page/goodHouse.html"
+    ],
+    "priority": 0
+  }
+}

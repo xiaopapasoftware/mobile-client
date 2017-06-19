@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>精选房源</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+	</head>
+	<style>
+		.house-detail {
+			padding: 15px 19px;
+			background: #FDFDFD;
+			margin-bottom: 15px;
+		}
+		
+		.house-detail .base-info {
+			font-size: 18px;
+			color: #585858;
+			line-height: 24px;
+		}
+		
+		.house-detail .price-info {
+			padding: 12px 0;
+			font-size: 14px;
+		}
+		
+		.house-detail .price-info .amount {
+			font-size: 27px;
+		}
+		
+		.house-detail .price-info .amount-color {
+			color: #FF6500;
+		}
+		
+		.house-detail .price-info .amount-color font {
+			color: #000000;
+		}
+		
+		.house-detail .price-info .house-num {
+			color: #06BE04;
+			padding: 8px 14px;
+			float: right;
+			border: 1px solid #56BA22;
+			margin-top: -6px;
+			border-radius: 25px;
+		}
+		
+		.house-detail .house-structs {
+			font-size: 16px;
+		}
+		
+		.house-detail .house-structs div {
+			margin-bottom: 15px;
+		}
+		
+		.house-detail .house-structs div label {
+			color: #9E9E9E;
+			line-height: 18px;
+			margin-right: 24px;
+		}
+		
+		.house-detail .house-structs div span {
+			color: #242424;
+		}
+		
+		.house-detail .house-structs .address {
+			border-top: 1px #9E9E9E solid;
+			border-bottom: 1px #9E9E9E solid;
+			padding: 15px 0;
+		}
+		
+		.house-detail .title {
+			padding-left: 10px;
+			font-size: 16px;
+			color: #06BE04;
+			border-left: 2px solid #06BE04;
+		}
+	</style>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">房间详情</h1>
+		</header>
+
+		<div class="mui-content">
+			<div id="slider" class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../images/house_demo.png">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../images/house_demo.png">
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../images/house_demo.png">
+						</a>
+					</div>
+					<!-- 第四张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../images/house_demo.png">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../images/house_demo.png">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="house-detail">
+				<p class="base-info">
+					浦东新区唐丰苑、地铁2号线唐镇附近－独卫－带阳台－朝南－68㎡
+				</p>
+				<div class="price-info">
+					<span class="amount amount-color">4000</span>
+					<span class="amount-color">元/月
+						<font>（押一付一）</font>
+					</span>
+					<span class="house-num">编号：89456</span>
+					<span></span>
+				</div>
+			</div>
+
+			<div class="house-detail">
+				<div class="mui-row house-structs">
+					<div class="mui-col-sm-6 mui-col-xs-6">
+						<label>厅室</label>
+						<span>2室1厅1卫</span>
+					</div>
+					<div class="mui-col-sm-6 mui-col-xs-6 ">
+						<label>面积</label>
+						<span>68㎡</span>
+					</div>
+
+					<div class="mui-col-sm-6 mui-col-xs-6 ">
+						<label>装修</label>
+						<span>精装修</span>
+					</div>
+					<div class="mui-col-sm-6 mui-col-xs-6 ">
+						<label>朝向</label>
+						<span>朝南</span>
+					</div>
+
+					<div class="mui-col-sm-6 mui-col-xs-6 ">
+						<label>楼层</label>
+						<span>02/16</span>
+					</div>
+
+					<div class="mui-col-sm-12 mui-col-xs-12 address">
+						<label>地址</label>
+						<span>金园一路1118弄</span>
+					</div>
+
+					<div class="mui-col-sm-12 mui-col-xs-12" style="font-size: 16px;padding: 15px;">
+						<span>
+							<i style="icon: url(../images/icon/iconfont-iconfontkuandai.png);"></i> 宽带 
+						</span>
+
+						<i></i>宽带
+						<i></i>宽带
+						<i></i>宽带
+					</div>
+				</div>
+			</div>
+
+			<div class="house-detail">
+
+				<h3 class="title">留言详情</h3>
+
+				<div class="mui-row">
+					<div class="mui-col-sm-12 mui-col-xs-12" style="font-size: 16px;padding: 15px;">
+						<span>
+							<i style="icon: url(../images/icon/iconfont-iconfontkuandai.png);"></i> 宽带 
+						</span>
+
+						<i></i>宽带
+						<i></i>宽带
+						<i></i>宽带
+					</div>
+				</div>
+			</div>
+
+			<div class="button">
+				<button class="block-button button-red">我要预约</button>
+			</div>
+
+			<div class="button">
+				<button class="two-button button-yellow">我要支付定金</button>
+				<button class="two-button two-button-second button-yellow">我要签约房间</button>
+			</div>
+
+		</div>
+
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+	</script>
+
+</html>
