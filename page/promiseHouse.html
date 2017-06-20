@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>预定详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+	</head>
+	<style>
+		.tab-top-nav {
+			padding: 18px 5px;
+			font-size: 14px;
+			background: #FDFDFD;
+			color: #B3B3B3;
+			white-space: nowrap;
+			position: absolute;
+			height: 50px;
+			width: 100%;
+		}
+		
+		.tab-top-nav .tab-nav-item {
+			display: inline-block;
+			overflow: hidden;
+			padding: 0 4px;
+		}
+		
+		.tab-top-nav .tab-nav-item span {
+			color: #FFFFFF;
+		}
+		
+		.tab-top-nav .active {
+			color: #06BE04;
+		}
+		
+		.tab-top-nav .tab-nav-item .active {
+			background: #06BE04;
+		}
+		
+		
+	</style>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">预定详情</h1>
+		</header>
+
+		<div class="mui-content">
+			<div class="tab-top-nav">
+				<div class="tab-nav-item">
+					<span class="mui-badge">1</span> 申请预定
+				</div>
+				<div class="tab-nav-item">
+					<span class="mui-badge">2</span> 管家确定中
+				</div>
+				<div class="tab-nav-item">
+					<span class="mui-badge">3</span> 支付定金
+				</div>
+				<div class="tab-nav-item active">
+					<span class="mui-badge active">4</span> 预定成功
+				</div>
+			</div>
+
+			<div class="margin-top-50 detail-data-list">
+				<ul class="mui-table-view thumb-data-list">
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="../images/house_demo.png">
+							<div class="mui-media-body">
+								<h4>浦东新区唐丰苑－朝南－16㎡</h4>
+								<p>距离金运路地铁站步行5分钟</p>
+							</div>
+						</a>
+					</li>
+					
+					<li class="mui-table-view-cell">
+						<label class="right">93084</label>
+						<span>房间编号</span>
+					</li>
+					<li class="mui-table-view-cell">
+						<span>房屋租金</span>
+						<span class="right">1400.00元/月</span>
+					</li>
+					<li class="mui-table-view-cell">
+						<span>房屋租期</span>
+						<span class="right">2015年6月20日－2016年7月20日</span>
+					</li>
+					
+					<li class="mui-table-view-cell">
+						<span>预定押金</span>
+						<span class="right"><font color="#FF6500">500.00元</font></span>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="margin-top-515 detail-data-list">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<span>姓        名</span>
+						<span class="right">李云龙</span>
+					</li>
+					<li class="mui-table-view-cell">
+						<span>身  份  证</span>
+						<span class="right">43052519931105191X</span>
+					</li>
+					<li class="mui-table-view-cell">
+						<span>性        别</span>
+						<span class="right">男</span>
+					</li>
+					
+					<li class="mui-table-view-cell">
+						<span>手机号码</span>
+						<span class="right">13788339282</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+	</script>
+
+</html>
