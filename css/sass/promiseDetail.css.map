@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIQ,kCAAE;EACE,WAAW,EAAE,iBAAqB;EAClC,KAAK,ECIJ,OAAO",
+"sources": ["promiseDetail.scss","common-param.scss"],
+"names": [],
+"file": "promiseDetail.css"
+}

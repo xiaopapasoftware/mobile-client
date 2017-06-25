@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import "common-param.scss";
+.my-manager {
+    .manager-info {
+        padding: 12px 13px;
+        background: $color-white;
+        .user-base-info {
+            display: inline-flex;
+            a {
+                img {
+                    width: 75px;
+                    height: 100px;
+                }
+            }
+            .user-info {
+                padding: 5px 17px;
+                h3 {
+                    font-size: $font-size-18;
+                    color: $color-black;
+                }
+                p {
+                    padding-top: 5px;
+                    font-size: $font-size-14;
+                    color: $color-gray;
+                    samp {
+                        color: $color-yellow1;
+                    }
+                }
+            }
+        }
+        .contract-button {
+            padding: 20px auto;
+            button {
+                padding: 12px 50px;
+                background: $color-green1;
+                border-radius: 4px;
+                color: $color-green2;
+                i{
+                    img{
+                        width: 17px;
+                        height: 14px;
+                    }
+                }
+            }
+            .send-message-button {}
+            .call-phone-button {
+                float: right;
+            }
+        }
+    }
+    .complain-content {
+        margin-top: $margin-15;
+        height: 160px;
+        textarea {
+            height: 100%;
+        }
+    }
+    .complain-button {
+        margin: $margin-15;
+        button {
+            border-radius: 4px;
+            padding: 13px;
+            width: 100%;
+            font-size: $font-size-20;
+            color: $color-white;
+            background: $color-green;
+        }
+    }
+}

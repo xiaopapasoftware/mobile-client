@@ -1,0 +1,10 @@
+@charset "utf-8";
+@import "common-param.scss";
+.promise-detail{
+    .remark-message{
+        h3{
+            border-left: 2px solid $color-gray;
+            color: $color-gray;
+        }
+    }
+}

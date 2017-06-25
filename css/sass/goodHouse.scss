@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import "common-param.scss";
+.good-house {
+    .house-block {
+        margin-bottom: $margin-15;
+        background: $color-white;
+        .house-img {
+            height: 250px;
+            position: relative;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+            span {
+                position: absolute;
+                line-height: 20px;
+                top: 190px;
+                left: 0;
+                padding: 8px;
+                border-radius: 0 4px 4px 4px;
+                font-size: $font-size-18;
+                color: $color-white;
+                background: $color-yellow;
+            }
+        }
+        .house-overview {
+            display: inline-flex;
+            padding: 15px;
+            width: 100%;
+            position: relative;
+            .house-base-info {
+                overflow: hidden;
+                white-space: nowrap;
+                margin-right: 120px;
+                h2 {
+                    font-size: $font-size-16;
+                    color: $color-gray2;
+                }
+                p {
+                    color: $color-gray;
+                    font-size: $font-size-14;
+                }
+            }
+            span {
+                position: absolute;
+                right: 15px;
+                top: 20px;
+                border: 1px solid $color-green;
+                border-radius: 25px;
+                padding: 8px 18px;
+                font-size: $font-size-14;
+                color: $color-green;
+            }
+        }
+    }
+}

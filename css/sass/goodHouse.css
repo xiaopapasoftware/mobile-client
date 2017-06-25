@@ -1,0 +1,45 @@
+.good-house .house-block {
+  margin-bottom: 15px;
+  background: #FFFFFF; }
+  .good-house .house-block .house-img {
+    height: 250px;
+    position: relative; }
+    .good-house .house-block .house-img img {
+      height: 100%;
+      width: 100%; }
+    .good-house .house-block .house-img span {
+      position: absolute;
+      line-height: 20px;
+      top: 190px;
+      left: 0;
+      padding: 8px;
+      border-radius: 0 4px 4px 4px;
+      font-size: 18px;
+      color: #FFFFFF;
+      background: #FF6500; }
+  .good-house .house-block .house-overview {
+    display: inline-flex;
+    padding: 15px;
+    width: 100%;
+    position: relative; }
+    .good-house .house-block .house-overview .house-base-info {
+      overflow: hidden;
+      white-space: nowrap;
+      margin-right: 120px; }
+      .good-house .house-block .house-overview .house-base-info h2 {
+        font-size: 16px;
+        color: #242424; }
+      .good-house .house-block .house-overview .house-base-info p {
+        color: #A5A5A5;
+        font-size: 14px; }
+    .good-house .house-block .house-overview span {
+      position: absolute;
+      right: 15px;
+      top: 20px;
+      border: 1px solid #06BE04;
+      border-radius: 25px;
+      padding: 8px 18px;
+      font-size: 14px;
+      color: #06BE04; }
+
+/*# sourceMappingURL=goodHouse.css.map */

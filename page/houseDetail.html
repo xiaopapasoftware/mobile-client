@@ -7,87 +7,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-
 		<link rel="stylesheet" href="../css/mui.min.css">
-		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/sass/common.css">
+		<link rel="stylesheet" href="../css/sass/houseDetail.css">
 	</head>
-	<style>
-		.house-detail {
-			padding: 15px 19px;
-			background: #FDFDFD;
-			margin-bottom: 15px;
-		}
-		
-		.house-detail .base-info {
-			font-size: 18px;
-			color: #585858;
-			line-height: 24px;
-		}
-		
-		.house-detail .price-info {
-			padding: 12px 0;
-			font-size: 14px;
-		}
-		
-		.house-detail .price-info .amount {
-			font-size: 27px;
-		}
-		
-		.house-detail .price-info .amount-color {
-			color: #FF6500;
-		}
-		
-		.house-detail .price-info .amount-color font {
-			color: #000000;
-		}
-		
-		.house-detail .price-info .house-num {
-			color: #06BE04;
-			padding: 8px 14px;
-			float: right;
-			border: 1px solid #56BA22;
-			margin-top: -6px;
-			border-radius: 25px;
-		}
-		
-		.house-detail .house-structs {
-			font-size: 16px;
-		}
-		
-		.house-detail .house-structs div {
-			margin-bottom: 15px;
-		}
-		
-		.house-detail .house-structs div label {
-			color: #9E9E9E;
-			line-height: 18px;
-			margin-right: 24px;
-		}
-		
-		.house-detail .house-structs div span {
-			color: #242424;
-		}
-		
-		.house-detail .house-structs .address {
-			border-top: 1px #9E9E9E solid;
-			border-bottom: 1px #9E9E9E solid;
-			padding: 15px 0;
-		}
-		
-		.house-detail .title {
-			padding-left: 10px;
-			font-size: 16px;
-			color: #06BE04;
-			border-left: 2px solid #06BE04;
-		}
-	</style>
 
 	<body>
 		<header class="mui-bar mui-bar-nav">
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
 			<h1 class="mui-title">房间详情</h1>
 		</header>
-
 		<div class="mui-content">
 			<div id="slider" class="mui-slider">
 				<div class="mui-slider-group mui-slider-loop">
@@ -124,20 +53,17 @@
 			</div>
 
 			<div class="house-detail">
-				<p class="base-info">
-					浦东新区唐丰苑、地铁2号线唐镇附近－独卫－带阳台－朝南－68㎡
-				</p>
-				<div class="price-info">
-					<span class="amount amount-color">4000</span>
-					<span class="amount-color">元/月
-						<font>（押一付一）</font>
-					</span>
-					<span class="house-num">编号：89456</span>
-					<span></span>
+				<div class="house-overview">
+					<p>
+						浦东新区唐丰苑、地铁2号线唐镇附近－独卫－带阳台－朝南－68㎡
+					</p>
+					<div class="price-info">
+						<span class="amount">4000<samp>元/月</samp></span>
+						<span class="pay-type">(押一付一)</span>
+						<span class="house-num">编号：89456</span>
+					</div>
 				</div>
-			</div>
 
-			<div class="house-detail">
 				<div class="mui-row house-structs">
 					<div class="mui-col-sm-6 mui-col-xs-6">
 						<label>厅室</label>
@@ -161,55 +87,80 @@
 						<label>楼层</label>
 						<span>02/16</span>
 					</div>
+					<div class="mui-col-sm-12 mui-col-xs-12">
+						<hr class="line-1" />
+					</div>
 
-					<div class="mui-col-sm-12 mui-col-xs-12 address">
+					<div class="mui-col-sm-12 mui-col-xs-12">
 						<label>地址</label>
 						<span>金园一路1118弄</span>
 					</div>
 
-					<div class="mui-col-sm-12 mui-col-xs-12" style="font-size: 16px;padding: 15px;">
-						<span>
-							<i style="icon: url(../images/icon/iconfont-iconfontkuandai.png);"></i> 宽带 
-						</span>
+					<div class="mui-col-sm-12 mui-col-xs-12">
+						<hr class="line-1" />
+					</div>
 
-						<i></i>宽带
-						<i></i>宽带
-						<i></i>宽带
+					<div class="mui-col-sm-12 mui-col-xs-12 app-icon">
+						<span>
+							<i><img src="../images/icon/kuandai-icon.png"></i> 宽带
+						</span>
+						<span>
+							<i><img src="../images/icon/kuandai-icon.png"></i> 电视
+						</span>
+						<span>
+							<i><img src="../images/icon/kuandai-icon.png"></i> 沙发
+						</span>
+						<span>
+							<i><img src="../images/icon/kuandai-icon.png"></i> 洗衣机
+						</span>
+						<span>
+							<i><img src="../images/icon/kuandai-icon.png"></i> 床
+						</span>
+					</div>
+				</div>
+
+				<div class="remark-message">
+					<h3>留言详情</h3>
+
+					<div class="mui-row app-icon">
+						<span>
+							<i><img src="../images/icon/kuandai-icon.png"></i> 宽带
+						</span>
+						<span>
+							<i><img src="../images/icon/kuandai-icon.png"></i> 电视
+						</span>
+						<span>
+							<i><img src="../images/icon/kuandai-icon.png"></i> 沙发
+						</span>
+						<span>
+							<i><img src="../images/icon/kuandai-icon.png"></i> 洗衣机
+						</span>
+						<span>
+							<i><img src="../images/icon/kuandai-icon.png"></i> 床
+						</span>
+					</div>
+				</div>
+
+				<div class="app-button">
+					<button id="promise-btn" class="block-button">我要预约</button>
+
+					<div class="two-button">
+						<button class="first-button">我要支付定金</button>
+						<button class="second-button">我要签约房间</button>
 					</div>
 				</div>
 			</div>
-
-			<div class="house-detail">
-
-				<h3 class="title">留言详情</h3>
-
-				<div class="mui-row">
-					<div class="mui-col-sm-12 mui-col-xs-12" style="font-size: 16px;padding: 15px;">
-						<span>
-							<i style="icon: url(../images/icon/iconfont-iconfontkuandai.png);"></i> 宽带 
-						</span>
-
-						<i></i>宽带
-						<i></i>宽带
-						<i></i>宽带
-					</div>
-				</div>
-			</div>
-
-			<div class="button">
-				<button class="block-button button-red">我要预约</button>
-			</div>
-
-			<div class="button">
-				<button class="two-button button-yellow">我要支付定金</button>
-				<button class="two-button two-button-second button-yellow">我要签约房间</button>
-			</div>
-
 		</div>
-
 	</body>
 	<script src="../js/mui.min.js"></script>
 	<script type="text/javascript">
+		mui.init();
+		document.getElementById('promise-btn').addEventListener('tap', function() {
+			mui.openWindow({
+				id: 'promiseHouse',
+				url: 'promiseDetail.html'
+			});
+		});
 	</script>
 
 </html>

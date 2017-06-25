@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import "common-param.scss";
+body {
+    background: $color-white;
+    height: 100%;
+}
+
+.sign {
+    background: $color-white;
+    .tip {
+        text-align: center;
+        font-size: $font-size-26;
+        color: $color-gray;
+        padding: $padding-35;
+    }
+    .sign-info {
+        font-size: $font-size-18;
+        color: $color-gray2;
+        .mui-input-row {
+            height: 50px;
+            display: inline-flex;
+            width: 100%;
+            label {
+                line-height: 25px;
+                text-align: right;
+                padding: $padding-10;
+                width: 30%;
+            }
+            input {
+                padding: $padding-10;
+                height: 50px;
+                line-height: 25px;
+            }
+            .validate-input {
+                width: 40%;
+            }
+            .validate-button {
+                width: 30%;
+                float: right;
+                padding: $padding-5;
+                button {
+                    color: $color-white;
+                    background: $color-green;
+                    padding: $padding-10 $padding-15;
+                    border-radius: 10px;
+                    line-height: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+body {
+  background: #FFFFFF;
+  height: 100%; }
+
+.sign {
+  background: #FFFFFF; }
+  .sign .tip {
+    text-align: center;
+    font-size: 26px;
+    color: #A5A5A5;
+    padding: 35px; }
+  .sign .sign-info {
+    font-size: 18px;
+    color: #242424; }
+    .sign .sign-info .mui-input-row {
+      height: 50px;
+      display: inline-flex;
+      width: 100%; }
+      .sign .sign-info .mui-input-row label {
+        line-height: 25px;
+        text-align: right;
+        padding: 10px;
+        width: 30%; }
+      .sign .sign-info .mui-input-row input {
+        padding: 10px;
+        height: 50px;
+        line-height: 25px; }
+      .sign .sign-info .mui-input-row .validate-input {
+        width: 40%; }
+      .sign .sign-info .mui-input-row .validate-button {
+        width: 30%;
+        float: right;
+        padding: 5px; }
+        .sign .sign-info .mui-input-row .validate-button button {
+          color: #FFFFFF;
+          background: #06BE04;
+          padding: 10px 15px;
+          border-radius: 10px;
+          line-height: 15px; }
+
+/*# sourceMappingURL=signIn.css.map */

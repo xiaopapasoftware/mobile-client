@@ -1,0 +1,47 @@
+.my-manager .manager-info {
+  padding: 12px 13px;
+  background: #FFFFFF; }
+  .my-manager .manager-info .user-base-info {
+    display: inline-flex; }
+    .my-manager .manager-info .user-base-info a img {
+      width: 75px;
+      height: 100px; }
+    .my-manager .manager-info .user-base-info .user-info {
+      padding: 5px 17px; }
+      .my-manager .manager-info .user-base-info .user-info h3 {
+        font-size: 18px;
+        color: #000000; }
+      .my-manager .manager-info .user-base-info .user-info p {
+        padding-top: 5px;
+        font-size: 14px;
+        color: #A5A5A5; }
+        .my-manager .manager-info .user-base-info .user-info p samp {
+          color: #FF7200; }
+  .my-manager .manager-info .contract-button {
+    padding: 20px auto; }
+    .my-manager .manager-info .contract-button button {
+      padding: 12px 50px;
+      background: #DDF1D3;
+      border-radius: 4px;
+      color: #55BB22; }
+      .my-manager .manager-info .contract-button button i img {
+        width: 17px;
+        height: 14px; }
+    .my-manager .manager-info .contract-button .call-phone-button {
+      float: right; }
+.my-manager .complain-content {
+  margin-top: 15px;
+  height: 160px; }
+  .my-manager .complain-content textarea {
+    height: 100%; }
+.my-manager .complain-button {
+  margin: 15px; }
+  .my-manager .complain-button button {
+    border-radius: 4px;
+    padding: 13px;
+    width: 100%;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #06BE04; }
+
+/*# sourceMappingURL=myManage.css.map */

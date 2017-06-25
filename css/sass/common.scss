@@ -1,0 +1,168 @@
+@charset "utf-8";
+@import "common-param.scss";
+.line-1 {
+    width: 100%;
+    border: 1px solid #D8D8D8;
+}
+
+.vertical-line-1 {
+    width: 1px;
+    height: 70%;
+    margin: auto 0px;
+    vertical-align: middle;
+}
+
+.app-icon {
+    span {
+        display: inline-block;
+        margin: 0 20px 0 20px;
+        color: $color-gray1;
+    }
+}
+
+.thumb-data-list {
+    margin-top: 0 !important;
+    li {
+        padding: 15px;
+        a {
+            img {
+                width: 105px;
+                height: 75px;
+                margin-right: $margin-15;
+            }
+            .mui-media-body {
+                h4 {
+                    font-size: $font-size-16;
+                    color: $color-gray2;
+                }
+                p {
+                    font-size: $font-size-14;
+                    color: $color-gray;
+                }
+                span {
+                    font-size: $font-size-14;
+                    color: $color-green;
+                }
+            }
+        }
+    }
+}
+
+.detail-data-list:first-child {
+    margin-top: 0;
+}
+
+.detail-data-list {
+    margin-top: $margin-15;
+    li {
+        a {
+            img {
+                height: 50px;
+                width: 70px;
+                margin-right: $margin-15;
+            }
+            .mui-media-body {
+                h4 {
+                    font-size: $font-size-16;
+                    color: $color-gray2;
+                }
+                p {
+                    font-size: $font-size-14;
+                    color: $color-gray;
+                }
+                span {
+                    font-size: $font-size-14;
+                    color: $color-green;
+                }
+            }
+        }
+        font-size: $font-size-16;
+        line-height: 25px;
+        label {
+            color: $color-gray1;
+        }
+        span {
+            color: $color-gray2;
+            float: right;
+        }
+    }
+}
+
+.remark-message {
+    padding: $padding-15;
+    margin-top: $margin-15;
+    background: $color-white;
+    h3 {
+        border-left: 2px solid $color-green;
+        color: $color-green;
+        padding-left: $padding-15;
+        font-weight: 300;
+        font-size: $font-size-16;
+    }
+    div {
+        font-size: $font-size-14;
+        margin-top: $margin-15;
+        span {
+            padding: $padding-5 0px;
+            font-size: $font-size-16;
+        }
+    }
+}
+
+.tab-top-nav {
+    height: 50px;
+    width: 100%;
+    padding: $padding-15;
+    font-size: $font-size-14;
+    background: $color-white;
+    color: $color-gray;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    .tab-nav-item {
+        display: inline;
+        padding: 0 $padding-5;
+        span {
+            color: $color-white;
+        }
+    }
+    .active {
+        color: $color-green;
+        span {
+            background: $color-green;
+        }
+    }
+}
+
+.tab-top-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.app-button {
+    margin: $margin-40 $margin-15;
+    .block-button {
+        font-size: $font-size-20;
+        color: $color-white;
+        border-radius: 4px;
+        padding: $padding-15;
+        width: 100%;
+        background: $color-red1;
+    }
+    .two-button button {
+        font-size: $font-size-20;
+        color: $color-white;
+        background: $color-red2;
+        padding: $padding-15;
+        border-radius: 4px;
+    }
+    .two-button {
+        margin-top: $margin-25;
+        .first-button {}
+        .second-button {
+            float: right;
+        }
+    }
+    .disabled{
+        background: $color-gray;
+    }
+}

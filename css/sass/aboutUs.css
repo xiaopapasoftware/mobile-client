@@ -1,0 +1,20 @@
+.about-us .app-logo {
+  text-align: center;
+  margin: 50px; }
+  .about-us .app-logo .app-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 22px;
+    padding: 28px 12px;
+    font-size: 32px;
+    background: #06BE04;
+    margin: auto; }
+  .about-us .app-logo .app-title {
+    font-size: 18px;
+    color: #000000;
+    margin: 10px auto; }
+  .about-us .app-logo .app-version {
+    font-size: 16px;
+    color: #A5A5A5; }
+
+/*# sourceMappingURL=aboutUs.css.map */

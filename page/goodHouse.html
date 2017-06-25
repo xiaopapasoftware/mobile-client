@@ -7,68 +7,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-
 		<link rel="stylesheet" href="../css/mui.min.css">
-		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/sass/goodHouse.css">
 	</head>
-	<style>
-		.house-item {
-			margin-bottom: 15px;
-		}
-		
-		.house-item .house-item-pic {
-			height: 250px;
-			position: relative;
-		}
-		
-		.house-item .house-item-pic img {
-			height: 100%;
-			width: 100%;
-		}
-		
-		.house-item .house-item-pic .price {
-			position: absolute;
-			line-height: 21px;
-			top: 197px;
-			left: 0;
-			font-size: 18px;
-			color: #FFFFFF;
-			padding: 8px;
-			background: #FF6500;
-			border-radius: 0 4px 4px 4px;
-		}
-		
-		.house-item .house-item-detail {
-			color: #FFFFFF;
-			background: #FFFFFF;
-			padding: 15px 0 15px 15px;
-		}
-		
-		.house-item .house-item-detail h2 {
-			color: #333333;
-			font-size: 16px;
-			padding-bottom: 7px;
-			overflow: hidden;
-			margin-right: 120px;
-		}
-		
-		.house-item .house-item-detail a {
-			float: right;
-			margin: -20px 15px 0 0;
-			border: 1px solid #56BA22;
-			border-radius: 25px;
-			font-size: 14px;
-			color: #56BA22;
-			padding: 8px 18px 7px 19px;
-		}
-		
-		.house-item .house-item-detail p {
-			color: #9A9A9A;
-			font-size: 14px;
-			margin-right: 120px;
-			overflow: hidden;
-		}
-	</style>
 
 	<body>
 		<header class="mui-bar mui-bar-nav">
@@ -76,28 +17,32 @@
 			<h1 class="mui-title">精选房源</h1>
 		</header>
 		<!--下拉刷新容器-->
-		<div id="house-list" class="mui-content">
-			<div class="house-item">
-				<div class="house-item-pic">
+		<div id="house-list" class="mui-content good-house">
+			<div class="house-block">
+				<div class="house-img">
 					<img src="../images/house_demo.png" />
 					<span class="price"> 1500元/月 </span>
 				</div>
-				<div class="house-item-detail">
-					<h2> 唐镇唐丰苑、地铁二号线唐镇附近 </h2>
-					<a href="#"> 押一付三 </a>
-					<p>独卫、有阳台、朝南、地铁房、56㎡</p>
+				<div class="house-overview">
+					<div class="house-base-info">
+						<h2> 唐镇唐丰苑、地铁二号线唐镇附近 </h2>
+						<p>独卫、有阳台、朝南、地铁房、56㎡</p>
+					</div>
+					<span> 押一付三 </span>
 				</div>
 			</div>
 
-			<div class="house-item">
-				<div class="house-item-pic">
+			<div class="house-block">
+				<div class="house-img">
 					<img src="../images/house_demo.png" />
 					<span class="price"> 1500元/月 </span>
 				</div>
-				<div class="house-item-detail">
-					<h2> 唐镇唐丰苑、地铁二号线唐镇附近 </h2>
-					<a href="#"> 押一付三 </a>
-					<p>独卫、有阳台、朝南、地铁房、56㎡</p>
+				<div class="house-overview">
+					<div class="house-base-info">
+						<h2> 唐镇唐丰苑、地铁二号线唐镇附近 </h2>
+						<p>独卫、有阳台、朝南、地铁房、56㎡</p>
+					</div>
+					<span> 押一付三 </span>
 				</div>
 			</div>
 		</div>
@@ -106,7 +51,7 @@
 
 	<script type="text/javascript">
 		mui.init();
-		mui('#house-list').on('tap', ".house-item", function() {
+		mui('#house-list').on('tap', ".house-block", function() {
 			mui.openWindow({
 				id: 'detail',
 				url: 'houseDetail.html'

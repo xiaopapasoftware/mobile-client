@@ -7,69 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-
 		<link rel="stylesheet" href="../css/mui.min.css">
-		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/sass/myManage.css">
 	</head>
 	<style>
-		.manager-info {
-			padding: 12px 0 12px 13px;
-			background: #FFFFFF;
-			position: relative;
-		}
-		
-		.manager-info a img {
-			width: 75px;
-			height: 100px;
-		}
-		
-		.manager-info .user-info {
-			position: absolute;
-			top: 12px;
-			left: 88px;
-			padding: 5px 0 0 8px;
-		}
-		
-		.manager-info .user-info h3 {
-			font-size: 18px;
-			color: #000000;
-		}
-		
-		.manager-info .user-info p {
-			font-size: 14px;
-			color: #A5A5A5;
-		}
-		
-		.manager-info .user-info p samp {
-			color: #FF7200;
-		}
-		
-		.manager-info .user-info span {
-			font-size: 14px;
-			color: #A5A5A5;
-		}
-		
-		.content {
-			height: 160px;
-			margin: 20px 0;
-		}
-		
-		.content textarea {
-			height: 100%;
-		}
-		
-		.promise-buttion {
-			margin: 15px 5px;
-		}
-		
-		.promise-buttion button {
-			background: #06BE04;
-			border-radius: 3px;
-			padding: 14px 149px;
-			width: 100%;
-			font-size: 20px;
-			color: #FFFFFF;
-		}
+
 	</style>
 
 	<body>
@@ -78,30 +20,36 @@
 			<h1 class="mui-title">我的管家</h1>
 		</header>
 
-		<div class="mui-content">
+		<div class="mui-content my-manager">
 			<div class="manager-info">
-				<a>
-					<img src="../images/my_server_icon.png" />
+				<div class="user-base-info">
+					<a href="#">
+						<img src="../images/my_server_icon.png" />
+					</a>
 					<div class="user-info">
 						<h3>燕传亚</h3>
 						<p>管家等级 <samp>＊＊＊＊</samp></p>
 						<span>上海唐巢投资有限公司</span>
 					</div>
-				</a>
+				</div>
 
-				<div class="button">
-					<button class="two-button button-green1">
-						<font color="#55BB22">发信息</font></button>
-					<button class="two-button two-button-second button-green1">
-						<font color="#55BB22">打电话</font></button>
+				<div class="contract-button">
+					<button class="send-message-button">
+						<i><img src="../images/icon/message-icon.png"></i>
+						发信息
+					</button>
+					<button class="call-phone-button">
+						<i><img src="../images/icon/phone-icon.png"></i>
+						打电话
+					</button>
 				</div>
 			</div>
 
-			<div class="content">
+			<div class="complain-content">
 				<textarea placeholder="投诉我的管家"></textarea>
 			</div>
 
-			<div class="button">
+			<div class="complain-button">
 				<button class="block-button button-green">我要投诉</button>
 			</div>
 		</div>

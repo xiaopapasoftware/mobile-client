@@ -1,0 +1,38 @@
+.house-detail .house-overview {
+  padding: 15px;
+  background: #FFFFFF; }
+  .house-detail .house-overview p {
+    font-size: 18px;
+    color: #585858;
+    line-height: 24px; }
+  .house-detail .house-overview .price-info {
+    display: inline;
+    color: #585858; }
+    .house-detail .house-overview .price-info .amount {
+      font-size: 24px;
+      color: #FF7200; }
+      .house-detail .house-overview .price-info .amount samp {
+        font-size: 14px; }
+    .house-detail .house-overview .price-info .pay-type {
+      font-size: 14px; }
+    .house-detail .house-overview .price-info .house-num {
+      color: #06BE04;
+      padding: 8px 14px;
+      float: right;
+      border: 1px solid #06BE04;
+      border-radius: 25px;
+      line-height: 12px; }
+.house-detail .house-structs {
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 15px;
+  background: #FFFFFF; }
+  .house-detail .house-structs div {
+    line-height: 35px; }
+    .house-detail .house-structs div label {
+      color: #A5A5A5;
+      margin-right: 25px; }
+    .house-detail .house-structs div span {
+      color: #242424; }
+
+/*# sourceMappingURL=houseDetail.css.map */
