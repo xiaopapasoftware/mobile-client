@@ -13,6 +13,12 @@
   margin: 0 20px 0 20px;
   color: #585858; }
 
+.content {
+  margin-top: 15px;
+  height: 160px; }
+  .content textarea {
+    height: 100%; }
+
 .thumb-data-list {
   margin-top: 0 !important; }
   .thumb-data-list li {

@@ -1,20 +1,18 @@
 .about-us .app-logo {
   text-align: center;
   margin: 50px; }
-  .about-us .app-logo .app-icon {
-    width: 90px;
-    height: 90px;
-    border-radius: 22px;
-    padding: 28px 12px;
-    font-size: 32px;
-    background: #06BE04;
-    margin: auto; }
-  .about-us .app-logo .app-title {
-    font-size: 18px;
-    color: #000000;
-    margin: 10px auto; }
-  .about-us .app-logo .app-version {
-    font-size: 16px;
-    color: #A5A5A5; }
+  .about-us .app-logo img {
+    width: 180px;
+    height: 45px; }
+.about-us .about-us-intro p {
+  font-size: 16px;
+  margin: 5px;
+  padding: 30px 15px;
+  background: #FFFFFF;
+  border: 1px solid #A5A5A5;
+  border-radius: 10px; }
+  .about-us .about-us-intro p strong {
+    font-size: 26px;
+    color: #242424; }
 
 /*# sourceMappingURL=aboutUs.css.map */

@@ -29,11 +29,6 @@
         height: 14px; }
     .my-manager .manager-info .contract-button .call-phone-button {
       float: right; }
-.my-manager .complain-content {
-  margin-top: 15px;
-  height: 160px; }
-  .my-manager .complain-content textarea {
-    height: 100%; }
 .my-manager .complain-button {
   margin: 15px; }
   .my-manager .complain-button button {

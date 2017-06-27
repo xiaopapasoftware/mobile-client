@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import "common-param.scss";
+.bill {
+    .mui-bar-nav {
+        background: $color-green;
+        a {
+            color: $color-white;
+        }
+        h1 {
+            color: $color-white;
+            font-weight: 400;
+            span {
+                background: #019400;
+            }
+            .nav-first {
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                padding: $padding-5 $padding-5 $padding-5 $padding-20;
+            }
+            .nav-second {
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                margin-left: -5px;
+                padding: $padding-5 $padding-20 $padding-5 $padding-5;
+            }
+            .active {
+                background: $color-white;
+                color: $color-green;
+            }
+        }
+    }
+    .tip {
+        color: $color-gray;
+        padding: $padding-10;
+        font-size: $font-size-14;
+    }
+    .bill-info {
+        font-size: $font-size-18;
+        color: $color-gray2;
+        li {
+            width: 100%;
+            padding: $padding-15;
+            div {
+                padding-bottom: $padding-15;
+                font-size: $font-size-18;
+                .active {
+                    color: $color-yellow;
+                }
+            }
+            p {
+                
+                span {
+                    padding: $padding-5 $padding-25;
+                    border: 1px solid $color-gray;
+                    color: $color-gray;
+                    border-radius: 15px;
+                    line-height: 15px;
+                }
+                .active {
+                    border: 1px solid $color-green;
+                    color: $color-green;
+                }
+            }
+        }
+    }
+}

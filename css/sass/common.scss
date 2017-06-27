@@ -20,6 +20,14 @@
     }
 }
 
+.content {
+    margin-top: $margin-15;
+    height: 160px;
+    textarea {
+        height: 100%;
+    }
+}
+
 .thumb-data-list {
     margin-top: 0 !important;
     li {
@@ -162,7 +170,7 @@
             float: right;
         }
     }
-    .disabled{
+    .disabled {
         background: $color-gray;
     }
 }

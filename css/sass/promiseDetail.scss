@@ -1,10 +1,19 @@
 @charset "utf-8";
 @import "common-param.scss";
-.promise-detail{
-    .remark-message{
-        h3{
+.promise-success {
+    .remark-message {
+        h3 {
             border-left: 2px solid $color-gray;
             color: $color-gray;
+        }
+    }
+}
+
+.promise-apply {
+    .app-button {
+        button {
+            background: $color-green;
+            margin-bottom: $margin-25;
         }
     }
 }

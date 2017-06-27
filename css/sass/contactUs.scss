@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import "common-param.scss";
+.contact-us {
+    .app-logo {
+        text-align: center;
+        margin: $margin-50;
+        .app-icon {
+            width: 90px;
+            height: 90px;
+            border-radius: 22px;
+            padding: 28px 12px;
+            font-size: $font-size-32;
+            background: $color-green;
+            margin: auto;
+        }
+        .app-title {
+            font-size: $font-size-18;
+            color: $color-black;
+            margin: 10px auto;
+        }
+        .app-version {
+            font-size: $font-size-16;
+            color: $color-gray;
+        }
+    }
+}
