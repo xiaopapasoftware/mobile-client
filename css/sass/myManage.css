@@ -29,14 +29,5 @@
         height: 14px; }
     .my-manager .manager-info .contract-button .call-phone-button {
       float: right; }
-.my-manager .complain-button {
-  margin: 15px; }
-  .my-manager .complain-button button {
-    border-radius: 4px;
-    padding: 13px;
-    width: 100%;
-    font-size: 20px;
-    color: #FFFFFF;
-    background: #06BE04; }
 
 /*# sourceMappingURL=myManage.css.map */

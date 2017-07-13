@@ -45,6 +45,13 @@
 	</body>
 	<script src="../js/mui.min.js"></script>
 	<script type="text/javascript">
+		mui.init();
+		mui('.thumb-data-list').on('tap', "li", function() {
+			mui.openWindow({
+				id: 'detail',
+				url: 'promiseDetail.html'
+			});
+		});
 	</script>
 
 </html>

@@ -127,8 +127,10 @@
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+    display: inline-flex;
     .tab-nav-item {
-        display: inline;
+        display: inline-block;
+        margin: auto;
         padding: 0 $padding-5;
         span {
             color: $color-white;
@@ -154,7 +156,7 @@
         border-radius: 4px;
         padding: $padding-15;
         width: 100%;
-        background: $color-red1;
+        background: $color-green;
     }
     .two-button button {
         font-size: $font-size-20;
@@ -172,5 +174,42 @@
     }
     .disabled {
         background: $color-gray;
+    }
+}
+
+.certificate {
+    margin: $margin-15;
+    text-align: center;
+    span {
+        display: inline-block;
+        background: $color-white;
+        border: 1px solid $color-gray;
+        border-radius: 6px;
+        text-align: center;
+        padding-top: $padding-10;
+        img {
+            width: 50px;
+            height: 30px;
+            margin: $padding-5 40px;
+        }
+        p {
+            font-size: $font-size-14;
+            color: $color-gray;
+        }
+    }
+    .left {
+        margin-right: $margin-15;
+    }
+}
+
+body {
+    .mui-bar-nav {
+        background: $color-green;
+        height: 50px;
+        line-height: 25px;
+        a,button,h1 {
+            color: $color-white !important;
+            font-size: $font-size-18 !important;
+        }
     }
 }

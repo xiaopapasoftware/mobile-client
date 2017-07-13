@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import "common-param.scss";
+.pay-detail {
+    .house-overview {
+        margin-top: 0 !important;
+    }
+    
+    .pay-amount{
+        ul{
+            li{
+                span{
+                    color: $color-yellow;
+                }
+            }
+        }
+    }
+    
+    .pay-method{
+        padding: $padding-10 $padding-15;
+        font-size: $font-size-14;
+        color: $color-gray;
+    }
+    
+    .pay-type-list{
+        ul{
+            li{
+                img{
+                    width: 35px;
+                    height: 35px;
+                    margin-right: $margin-10;
+                }
+                .mui-media-body{
+                    span{
+                        font-size: $font-size-14;
+                        color: $color-gray2;
+                    };
+                    p{
+                        font-size: $font-size-10;
+                        color: $color-gray;
+                    }
+                    .mui-pull-right{
+                        position: absolute;
+                        top: 25px;
+                        right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,47 +1,47 @@
-.bill .mui-bar-nav {
+.order .mui-bar-nav {
   background: #06BE04; }
-  .bill .mui-bar-nav a {
+  .order .mui-bar-nav a {
     color: #FFFFFF; }
-  .bill .mui-bar-nav h1 {
+  .order .mui-bar-nav h1 {
     color: #FFFFFF;
     font-weight: 400; }
-    .bill .mui-bar-nav h1 span {
+    .order .mui-bar-nav h1 span {
       background: #019400; }
-    .bill .mui-bar-nav h1 .nav-first {
+    .order .mui-bar-nav h1 .nav-first {
       border-top-left-radius: 15px;
       border-bottom-left-radius: 15px;
       padding: 5px 5px 5px 20px; }
-    .bill .mui-bar-nav h1 .nav-second {
+    .order .mui-bar-nav h1 .nav-second {
       border-top-right-radius: 15px;
       border-bottom-right-radius: 15px;
       margin-left: -5px;
       padding: 5px 20px 5px 5px; }
-    .bill .mui-bar-nav h1 .active {
+    .order .mui-bar-nav h1 .active {
       background: #FFFFFF;
       color: #06BE04; }
-.bill .tip {
+.order .tip {
   color: #A5A5A5;
   padding: 10px;
   font-size: 14px; }
-.bill .bill-info {
+.order .order-info {
   font-size: 18px;
   color: #242424; }
-  .bill .bill-info li {
+  .order .order-info li {
     width: 100%;
     padding: 15px; }
-    .bill .bill-info li div {
+    .order .order-info li div {
       padding-bottom: 15px;
       font-size: 18px; }
-      .bill .bill-info li div .active {
+      .order .order-info li div .active {
         color: #FF6500; }
-    .bill .bill-info li p span {
+    .order .order-info li p span {
       padding: 5px 25px;
       border: 1px solid #A5A5A5;
       color: #A5A5A5;
       border-radius: 15px;
       line-height: 15px; }
-    .bill .bill-info li p .active {
+    .order .order-info li p .active {
       border: 1px solid #06BE04;
       color: #06BE04; }
 
-/*# sourceMappingURL=bill.css.map */
+/*# sourceMappingURL=order.css.map */

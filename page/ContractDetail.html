@@ -14,7 +14,9 @@
 
 	<body>
 		<header class="mui-bar mui-bar-nav">
-			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<button class="mui-action-back mui-btn mui-btn-blue mui-btn-link mui-btn-nav mui-pull-left">
+				<span class="mui-icon mui-icon-left-nav"></span>返回
+			</button>
 			<h1 class="mui-title">我的合同</h1>
 		</header>
 
@@ -88,7 +90,7 @@
 				</ul>
 			
 				<div class="app-button">
-					<button id="promise-btn" class="block-button">支付租金</button>
+					<button id="pay-btn" class="block-button">支付租金</button>
 					<button id="promise-btn" class="block-button">取消签约</button>
 				</div>
 			</div>
@@ -96,6 +98,13 @@
 	</body>
 	<script src="../js/mui.min.js"></script>
 	<script type="text/javascript">
+		mui.init();
+		mui('.app-button').on('tap', "#pay-btn", function() {
+			mui.openWindow({
+				id: 'detail',
+				url: 'payDetail.html'
+			});
+		});
 	</script>
 
 </html>

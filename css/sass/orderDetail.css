@@ -1,0 +1,25 @@
+.order-detail .mui-bar-nav {
+  background: #06BE04; }
+  .order-detail .mui-bar-nav a {
+    color: #FFFFFF; }
+  .order-detail .mui-bar-nav h1 {
+    color: #FFFFFF;
+    font-weight: 400; }
+    .order-detail .mui-bar-nav h1 span {
+      background: #019400; }
+    .order-detail .mui-bar-nav h1 .nav-first {
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      padding: 5px 5px 5px 20px; }
+    .order-detail .mui-bar-nav h1 .nav-second {
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      margin-left: -5px;
+      padding: 5px 20px 5px 5px; }
+    .order-detail .mui-bar-nav h1 .active {
+      background: #FFFFFF;
+      color: #06BE04; }
+.order-detail .amount {
+  color: #FF6500; }
+
+/*# sourceMappingURL=orderDetail.css.map */

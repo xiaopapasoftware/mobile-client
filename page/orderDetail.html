@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>账单</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/sass/common.css">
+		<link rel="stylesheet" href="../css/sass/orderDetail.css">
+	</head>
+
+	<body class="order-detail">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">
+				<span class="nav-first">房租账单</span>
+				<span class="nav-second active">水电煤账单</span>
+			</h1>
+		</header>
+
+		<div class="mui-content">
+			<div class="detail-data-list pay-status">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<label>付款状态</label>
+						<span>为支付</span>
+					</li>
+				</ul>
+			</div>
+
+			<div class="detail-data-list">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<label>账单合计</label>
+						<span class="amount">¥234.00</span>
+					</li>
+					<li class="mui-table-view-cell">
+						<label>税费</label>
+						<span>¥130.00</span>
+					</li>
+					<li class="mui-table-view-cell">
+						<label>电费</label>
+						<span>¥274.00</span>
+					</li>
+					<li class="mui-table-view-cell">
+						<label>天然气</label>
+						<span>¥230.00</span>
+					</li>
+					<li class="mui-table-view-cell">
+						<label>账单日期起始</label>
+						<span>2015年12月05日-2016年01月05日</span>
+					</li>
+					<li class="mui-table-view-cell">
+						<label>付款日期</label>
+						<span>2016年01月05日</span>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="app-button">
+				<button id="pay-btn" class="block-button">去支付</button>
+			</div>
+			
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui.init();
+		mui('.app-button').on('tap', "#pay-btn", function() {
+			mui.openWindow({
+				id: 'detail',
+				url: 'payDetail.html'
+			});
+		});
+	</script>
+
+</html>

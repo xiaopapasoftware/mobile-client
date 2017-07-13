@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import "common-param.scss";
-.bill {
+.order {
     .mui-bar-nav {
         background: $color-green;
         a {
@@ -34,7 +34,7 @@
         padding: $padding-10;
         font-size: $font-size-14;
     }
-    .bill-info {
+    .order-info {
         font-size: $font-size-18;
         color: $color-gray2;
         li {

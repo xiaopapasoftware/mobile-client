@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>支付详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/sass/common.css">
+		<link rel="stylesheet" href="../css/sass/payDetail.css">
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">支付详情</h1>
+		</header>
+
+		<div class="mui-content pay-detail">
+			<ul class="mui-table-view detail-data-list house-overview">
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-pull-left" src="../images/house_demo.png">
+						<div class="mui-media-body">
+							<h4>浦东新区唐丰苑－朝南－16㎡</h4>
+							<p>距离金运路地铁站步行5分钟</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+
+			<div class="detail-data-list pay-amount">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<label>预定房间金额</label>
+						<span>¥500.00</span>
+					</li>
+				</ul>
+			</div>
+
+			<div class="pay-method">选择支付方式</div>
+
+			<div class="pay-type-list">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<img class="mui-pull-left" src="../images/icon/alipay-icon.png">
+						<div class="mui-media-body">
+							<span>支付宝</span>
+							<p>推荐支付宝使用</p>
+							<span class="mui-pull-right">
+								<input name="radio1" type="radio">
+							</span>
+						</div>
+					</li>
+
+					<li class="mui-table-view-cell mui-media">
+						<img class="mui-pull-left" src="../images/icon/wechat-icon.png">
+						<div class="mui-media-body">
+							<span>微信支付</span>
+							<p>推荐微信用户使用</p>
+							<span class="mui-pull-right">
+								<input name="radio1" type="radio">
+							</span>
+						</div>
+					</li>
+
+					<li class="mui-table-view-cell mui-media">
+						<img class="mui-pull-left" src="../images/icon/depositCard-icon.png">
+						<div class="mui-media-body">
+							<span>储蓄卡支付</span>
+							<p>国内主流银行，无需开通网银</p>
+							<span class="mui-pull-right">
+								<input name="radio1" type="radio">
+							</span>
+						</div>
+					</li>
+
+					<li class="mui-table-view-cell mui-media">
+						<img class="mui-pull-left" src="../images/icon/creditCard-icon.png">
+						<div class="mui-media-body">
+							<span>信用卡支付</span>
+							<p>国内主流银行，无需开通网银</p>
+							<span class="mui-pull-right">
+								<input name="radio1" type="radio">
+							</span>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="app-button">
+				<button id="promise-btn" class="block-button">确定支付</button>
+			</div>
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+	</script>
+
+</html>

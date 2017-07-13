@@ -145,8 +145,8 @@
 					<button id="promise-btn" class="block-button">我要预约</button>
 
 					<div class="two-button">
-						<button class="first-button">我要支付定金</button>
-						<button class="second-button">我要签约房间</button>
+						<button id="pay-btn" class="first-button">我要支付定金</button>
+						<button id="sign-btn" class="second-button">我要签约房间</button>
 					</div>
 				</div>
 			</div>
@@ -159,6 +159,18 @@
 			mui.openWindow({
 				id: 'promiseHouse',
 				url: 'promiseDetail.html'
+			});
+		});
+		document.getElementById('pay-btn').addEventListener('tap', function() {
+			mui.openWindow({
+				id: 'promiseHouse',
+				url: 'payDetail.html'
+			});
+		});
+		document.getElementById('sign-btn').addEventListener('tap', function() {
+			mui.openWindow({
+				id: 'promiseHouse',
+				url: 'signHouse.html'
 			});
 		});
 	</script>

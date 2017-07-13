@@ -9,10 +9,10 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<link rel="stylesheet" href="../css/mui.min.css">
 		<link rel="stylesheet" href="../css/sass/common.css">
-		<link rel="stylesheet" href="../css/sass/bill.css">
+		<link rel="stylesheet" href="../css/sass/order.css">
 	</head>
 
-	<body class="bill">
+	<body class="order">
 		<header class="mui-bar mui-bar-nav">
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
 			<h1 class="mui-title">
@@ -23,7 +23,7 @@
 
 		<div class="mui-content">
 			<div class="tip">您的水电煤账单</div>
-			<div class="bill-info">
+			<div class="order-info">
 				<ul class="mui-table-view detail-data-list">
 					<li class="mui-table-view-cell">
 						<div>
@@ -32,7 +32,7 @@
 						</div>
 						<p>
 							<label>最晚付款日期:2016年01月05日</label>
-							<span class="active">支付</span>
+							<span class="active goPay">支付</span>
 						</p>
 					</li>
 					<li class="mui-table-view-cell">
@@ -52,6 +52,13 @@
 	</body>
 	<script src="../js/mui.min.js"></script>
 	<script type="text/javascript">
+		mui.init();
+		mui('.order-info').on('tap', ".goPay", function() {
+			mui.openWindow({
+				id: 'detail',
+				url: 'orderDetail.html'
+			});
+		});
 	</script>
 
 </html>

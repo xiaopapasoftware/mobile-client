@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>账单</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/sass/common.css">
+		<link rel="stylesheet" href="../css/sass/repairDetail.css">
+	</head>
+
+	<body class="repair-detail">
+		<header class="mui-bar mui-bar-nav">
+			<button class="mui-action-back mui-btn mui-btn-blue mui-btn-link mui-btn-nav mui-pull-left">
+				<span class="mui-icon mui-icon-left-nav"></span>返回
+			</button>
+			<h1 class="mui-title">
+				我要报修
+			</h1>
+			<button class="mui-btn mui-btn-blue mui-btn-link mui-pull-right">完成</button>
+		</header>
+
+		<div class="mui-content">
+
+			<div class="detail-data-list">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<label>电话</label>
+						<span>13873977129</span>
+					</li>
+					<li class="mui-table-view-cell">
+						<label>上门时间</label>
+						<span>修改上门时间</span>
+					</li>
+				</ul>
+			</div>
+
+			<div class="content">
+				<textarea placeholder="请输入你的保修问题"></textarea>
+			</div>
+
+			<div class="pic-desp">
+				<div>上传照片</div>
+				<ul>
+					<li>
+						<img src="../images/house_demo.png" />
+						<a>
+							<img src="../images/icon/picRemove.png" />
+						</a>
+					</li>
+					<li>
+						<img src="../images/house_demo.png" />
+						<a class="active">
+							<img src="../images/icon/picRemove.png" />
+						</a>
+					</li>
+					<li class="add-pic-btn">
+						<img src="../images/addPic.png" />
+					</li>
+				</ul>
+			</div>
+
+			<div class="app-button">
+				<button id="promise-btn" class="block-button">确定报修</button>
+			</div>
+
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+	</script>
+
+</html>

@@ -13,7 +13,9 @@
 
 	<body>
 		<header class="mui-bar mui-bar-nav">
-			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<button class="mui-action-back mui-btn mui-btn-blue mui-btn-link mui-btn-nav mui-pull-left">
+				<span class="mui-icon mui-icon-left-nav"></span>返回
+			</button>
 			<h1 class="mui-title">我的合同</h1>
 		</header>
 
@@ -45,6 +47,13 @@
 	</body>
 	<script src="../js/mui.min.js"></script>
 	<script type="text/javascript">
+		mui.init();
+		mui('.thumb-data-list').on('tap', "li", function() {
+			mui.openWindow({
+				id: 'detail',
+				url: 'contractDetail.html'
+			});
+		});
 	</script>
 
 </html>

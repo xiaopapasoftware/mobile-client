@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import "common-param.scss";
+.order-detail {
+    .mui-bar-nav {
+        background: $color-green;
+        a {
+            color: $color-white;
+        }
+        h1 {
+            color: $color-white;
+            font-weight: 400;
+            span {
+                background: #019400;
+            }
+            .nav-first {
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                padding: $padding-5 $padding-5 $padding-5 $padding-20;
+            }
+            .nav-second {
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                margin-left: -5px;
+                padding: $padding-5 $padding-20 $padding-5 $padding-5;
+            }
+            .active {
+                background: $color-white;
+                color: $color-green;
+            }
+        }
+    }
+    
+    .amount{
+        color: $color-yellow;
+    }
+}
