@@ -1,0 +1,25 @@
+@charset "utf-8";
+@import "common-param.scss";
+.index {
+    .mui-slider {
+        margin-top: -15px;
+    }
+    .bg-oringe {
+        background: $color-green !important;
+    }
+    .bg-teal {
+        background: $color-green !important;
+    }
+    .bg-orange {
+        background: $color-green !important;
+    }
+    .menu {
+        li {
+            padding: 10px 15px !important;
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import "common-param.scss";
+.validate-code {
+    label {
+        float: right;
+        color: $color-white !important;
+        background: $color-green;
+        padding: $padding-10 $padding-15;
+        border-radius: 10px;
+        text-align: center;
+        z-index: 99;
+    }
+    input {
+        padding-left: 22px !important;
+    }
+}

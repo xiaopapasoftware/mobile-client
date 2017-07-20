@@ -1,14 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title>唐巢人才公寓</title>
-		<link rel="stylesheet" href="css/mui.min.css">
-		<link rel="stylesheet" href="css/sass/common.css">
-		<link rel="stylesheet" href="css/sass/index.css" />
-		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+
+		<title>文化消费</title>
+
+		<link href="css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="css/iconFont.css" rel="stylesheet" type="text/css" />
+		<link href="css/color.css" rel="stylesheet" type="text/css" />
+
 		<style>
 			.metro .ol-transparent {
 				outline-color: transparent !important;
@@ -223,97 +225,84 @@
 					font-size: 16px;
 				}
 			}
+			
+			body {
+				background-color: #D3FDF8;
+			}
 		</style>
 
 	</head>
 
-	<body class="index">
-		<header class="mui-bar mui-bar-nav">
-			<h1 class="mui-title">唐巢人才公寓</h1>
-		</header>
+	<body>
+		<!--scroll-->
+		<div>
+			<img src="images/wenhuaxiaofei.png" width="100%" /></li>
+		</div>
 
-		<div class="mui-content">
-			<div id="slider" class="mui-slider" style="height: 200px;">
-				<div class="mui-slider-group mui-slider-loop">
-					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
-					<div class="mui-slider-item mui-slider-item-duplicate">
-						<a href="#">
-							<img src="images/banner02.png">
-						</a>
+		<div class="container metro" style="width: 100%;margin:0 0 0 1%">
+			<div class="tile doubleh bg-oringe">
+				<a href="mmlist.html" data-ajax="false" target="_self" style="text-decoration: none;">
+					<div class="tile-content icon doubleh">
+						<span class="icon-list"></span>
 					</div>
-					<!-- 第一张 -->
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="images/banner01.png">
-						</a>
+					<div class="tile-status">
+						<span class="name">商品列表</span>
 					</div>
-					<!-- 第四张 -->
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="images/banner02.png">
-						</a>
+				</a>
+			</div>
+			<div class="tile  bg-teal">
+				<a href="#" data-ajax="false" target="_self" style="text-decoration: none;">
+					<div class="tile-content icon">
+						<span class="icon-cart-2"></span>
 					</div>
-					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
-					<div class="mui-slider-item mui-slider-item-duplicate">
-						<a href="#">
-							<img src="images/banner01.png">
-						</a>
+					<div class="tile-status">
+						<span class="name">我的订单</span>
 					</div>
-				</div>
-				<div class="mui-slider-indicator">
-					<div class="mui-indicator mui-active"></div>
-					<div class="mui-indicator"></div>
-				</div>
+				</a>
+			</div>
+			<div class="tile  bg-orange">
+				<a href="mmscore.html" data-ajax="false" target="_self" style="text-decoration: none;">
+					<div class="tile-content icon">
+						<span class="icon-trophy"></span>
+					</div>
+					<div class="tile-status">
+						<span class="name">我的积分</span>
+					</div>
+				</a>
 			</div>
 
-			<div class="container metro" style="width: 100%;margin:0 0 0 1%">
-				<div class="tile doubleh bg-oringe">
-					<a href="page/my.html" data-ajax="false" target="_self" style="text-decoration: none;">
-						<div class="tile-content icon doubleh">
-							<img src="images/icon/my-icon.png" />
-						</div>
-						<div class="tile-status" style="margin-top: 140px;">
-							<span class="name">我的</span>
-						</div>
-					</a>
-				</div>
-				<div class="tile  bg-teal">
-					<a href="page/goodHouse.html" data-ajax="false" target="_self" style="text-decoration: none;">
-						<div class="tile-content icon">
-							<img src="images/icon/goodHouse-icon.png" />
-						</div>
-						<div class="tile-status">
-							<span class="name">找房</span>
-						</div>
-					</a>
-				</div>
-				<div class="tile  bg-orange">
-					<a href="mmscore.html" data-ajax="false" target="_self" style="text-decoration: none;">
-						<div class="tile-content icon">
-							<img src="images/icon/repair-icon.png" />
-						</div>
-						<div class="tile-status">
-							<span class="name">设置</span>
-						</div>
-					</a>
-				</div>
+			<div class="tile doublew  bg-green">
+				<a href="mmhelp.html" data-ajax="false" target="_self" style="text-decoration: none;">
+					<div class="tile-status">
+						<span class="name">帮助与答疑</span>
+					</div>
+				</a>
 			</div>
+		</div>
 
-			<script src="js/mui.min.js"></script>
-			<script type="text/javascript" charset="utf-8">
-				mui.init();
-				var slider = mui("#slider");
-				var flag = true;
+		<!--scroll-->
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
 
-				if(flag) {
-					slider.slider({
-						interval: 5000
-					});
-				} else {
-					slider.slider({
-						interval: 0
-					});
+		<script src="js/hhSwipe.js" type="text/javascript"></script>
+		<script>
+			var slider = Swipe(document.getElementById('scroll_img'), {
+				auto: 3000,
+				continuous: true,
+				callback: function(pos) {
+					var i = bullets.length;
+					while(i--) {
+						bullets[i].className = ' ';
+					}
+					bullets[pos].className = 'on';
 				}
-			</script>
+			});
+			var bullets = document.getElementById('scroll_position').getElementsByTagName('li');
+			$(function() {
+				$('.scroll_position_bg').css({
+					width: $('#scroll_position').width()
+				});
+			});
+		</script>
+	</body>
 
 </html>

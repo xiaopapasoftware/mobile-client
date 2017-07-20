@@ -1,0 +1,12 @@
+.validate-code label {
+  float: right;
+  color: #FFFFFF !important;
+  background: #06BE04;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 99; }
+.validate-code input {
+  padding-left: 22px !important; }
+
+/*# sourceMappingURL=appiontmentDetail.css.map */

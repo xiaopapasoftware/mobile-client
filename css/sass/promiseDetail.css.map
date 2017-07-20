@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAIQ,mCAAG;EACC,WAAW,EAAE,iBAAqB;EAClC,KAAK,ECIJ,OAAO;;ADGZ,iCAAO;EACH,UAAU,ECXR,OAAO;EDYT,aAAa,ECSb,IAAI",
-"sources": ["promiseDetail.scss","common-param.scss"],
-"names": [],
-"file": "promiseDetail.css"
-}

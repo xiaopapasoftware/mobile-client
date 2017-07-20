@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>预约详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/sass/common.css">
+		<link rel="stylesheet" href="../css/sass/appiontmentDetail.css">
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">预约详情</h1>
+		</header>
+
+		<div class="mui-content">
+			<div class="tab-top-nav">
+				<div class="tab-nav-item active">
+					<span class="mui-badge">1</span> 申请预约
+				</div>
+				<div class="tab-nav-item">
+					<span class="mui-badge">2</span> 管家确定中
+				</div>
+				<div class="tab-nav-item">
+					<span class="mui-badge">3</span> 预约成功
+				</div>
+			</div>
+
+			<div class="appiontment">
+				<div class="appiontment-apply">
+					<ul class="mui-table-view detail-data-list">
+						<li class="mui-table-view-cell mui-media">
+							<a href="javascript:;">
+								<img class="mui-pull-left" src="../images/house_demo.png">
+								<div class="mui-media-body">
+									<h4>浦东新区唐丰苑－朝南－16㎡</h4>
+									<p>距离金运路地铁站步行5分钟</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<div class="tip-message">完善看房信息</div>
+					<ul class="mui-table-view detail-data-list" style="margin-top: 0px;">
+						<li class="mui-table-view-cell mui-input-row">
+							<label>联系人</label>
+							<input type="text" class="mui-input-clear" placeholder="必填">
+						</li>
+						<li class="mui-table-view-cell mui-input-row">
+							<label>联系电话</label>
+							<input type="text" class="mui-input-clear" placeholder="必填">
+						</li>
+						<li class="mui-table-view-cell mui-input-row validate-code">
+							<label>获取验证码</label>
+							<input type="text" class="mui-input-clear" placeholder="必填">
+						</li>
+						<li class="mui-table-view-cell mui-input-row">
+							<label>看房时间</label>
+							<input type="text" class="mui-input-clear" placeholder="必填">
+						</li>
+					</ul>
+					<div class="content">
+						<textarea placeholder="向管家发送留言"></textarea>
+					</div>
+					<div class="app-button">
+						<button type="button" class="block-button">提交</button>
+					</div>
+				</div>
+
+				<div class="appiontment-success mui-hidden">
+					<ul class="mui-table-view detail-data-list">
+						<li class="mui-table-view-cell mui-media">
+							<a href="javascript:;">
+								<img class="mui-pull-left" src="../images/house_demo.png">
+								<div class="mui-media-body">
+									<h4>浦东新区唐丰苑－朝南－16㎡</h4>
+									<p>距离金运路地铁站步行5分钟</p>
+								</div>
+							</a>
+						</li>
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell">
+								<label>联系人</label>
+								<span>王先生</span>
+							</li>
+							<li class="mui-table-view-cell">
+								<label>联系电话</label>
+								<span>181-0932-0094</span>
+							</li>
+							<li class="mui-table-view-cell">
+								<label>看房时间</label>
+								<span>2017-04-12</span>
+							</li>
+						</ul>
+
+						<div class="remark-message">
+							<h3>留言详情</h3>
+							<div class="mui-row">
+								<p>
+									管家你好，我看了你的房子觉得很棒，我想明天晚上和你约个时间看房子，你方便吗？
+								</p>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+	</script>
+
+</html>

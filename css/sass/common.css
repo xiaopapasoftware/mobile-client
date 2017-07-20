@@ -152,8 +152,18 @@ body .mui-bar-nav {
   background: #06BE04;
   height: 50px;
   line-height: 25px; }
-  body .mui-bar-nav a, body .mui-bar-nav button, body .mui-bar-nav h1 {
+  body .mui-bar-nav a,
+  body .mui-bar-nav button,
+  body .mui-bar-nav h1 {
     color: #FFFFFF !important;
     font-size: 18px !important; }
+
+.tip-message {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #A5A5A5; }
+
+.amount {
+  color: #FF6500 !important; }
 
 /*# sourceMappingURL=common.css.map */

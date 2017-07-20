@@ -20,7 +20,7 @@
 
 		<div class="mui-content">
 			<div class="tab-top-nav">
-				<div class="tab-nav-item">
+				<div class="tab-nav-item active">
 					<span class="mui-badge">1</span> 申请预定
 				</div>
 				<div class="tab-nav-item">
@@ -29,13 +29,13 @@
 				<div class="tab-nav-item">
 					<span class="mui-badge">3</span> 支付定金
 				</div>
-				<div class="tab-nav-item active">
+				<div class="tab-nav-item">
 					<span class="mui-badge">4</span> 预定成功
 				</div>
 			</div>
 
 			<div class="promise">
-				<div class="promise-apply mui-hidden">
+				<div class="promise-apply">
 					<ul class="mui-table-view detail-data-list">
 						<li class="mui-table-view-cell mui-media">
 							<a href="javascript:;">
@@ -46,16 +46,29 @@
 								</div>
 							</a>
 						</li>
-						<li class="mui-table-view-cell mui-input-row">
-							<label>合同签约时间</label>
-							<input type="text" class="mui-input-clear" placeholder="请选择">
+						<li class="mui-table-view-cell">
+							<label>房间编号</label>
+							<label class="mui-pull-right">93084</label>
 						</li>
-						<li class="mui-table-view-cell mui-input-row">
-							<label>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别</label>
-							<input type="text" class="mui-input-clear" placeholder="请选择">
+						<li class="mui-table-view-cell">
+							<label>房屋租金</label>
+							<span>1400.00元/月</span>
 						</li>
+						<li class="mui-table-view-cell">
+							<label>出租方式</label>
+							<span>付三押一</span>
+						</li>
+
+						<li class="mui-table-view-cell">
+							<label>预定押金</label>
+							<span class="amount">500.00 元</span>
+						</li>
+						
+					</ul>
+					
+					<ul class="mui-table-view detail-data-list">
 						<li class="mui-table-view-cell mui-input-row">
-							<label>合同结束时间</label>
+							<label style="padding-left: 0px;">合同签约时间</label>
 							<input type="text" class="mui-input-clear" placeholder="请选择">
 						</li>
 					</ul>
@@ -63,11 +76,11 @@
 						<textarea placeholder="向管家发送留言"></textarea>
 					</div>
 					<div class="app-button">
-						<button type="button" class="block-button">下一步</button>
+						<button type="button" class="block-button">提交</button>
 					</div>
 				</div>
 
-				<div class="promise-success">
+				<div class="promise-success  mui-hidden">
 					<ul class="mui-table-view detail-data-list">
 						<li class="mui-table-view-cell mui-media">
 							<a href="javascript:;">

@@ -207,9 +207,21 @@ body {
         background: $color-green;
         height: 50px;
         line-height: 25px;
-        a,button,h1 {
+        a,
+        button,
+        h1 {
             color: $color-white !important;
             font-size: $font-size-18 !important;
         }
     }
+}
+
+.tip-message {
+    padding: $padding-10 $padding-15;
+    font-size: $font-size-14;
+    color: $color-gray;
+}
+
+.amount {
+    color: #FF6500 !important;
 }
